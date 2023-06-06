@@ -1,0 +1,30 @@
+{
+    "transparency16": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true
+    },
+    "级别1": {
+        "id": "级别1",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAwZDAwMDgwMDAxMDQwNDA0MDQwNDA0MDQwNDA0MDQwNDA1MDIwOTA5MDkwOTA5MDkwOTA5MDkwOTA5MDYwMjA5MDkwOTA5MDkwOTA5MDkwOTA5MDkwNjAyMDkwOTA5MDkwOTA5MDkwOTA5MDkwOTA2MDIwOTA5MDkwOTA5MDkwOTA5MDkwOTA5MDYwMjA5MDkwOTA5MDkwOTA5MDkwOTA5MDkwNjAyMDkwOTA5MDkwOTA5MDkwOTA5MDkwOTA2MDMwNzA3MDcwNzAwMDAwNzA3MDcwNzA3MDgyMjIyMjIyMjIyMjIyMjAwMDAwMDAwMDAyMDAyMDAwMDAwMDAwMDIyMDAwMDAwMDAwMDIwMDIwMDAwMDAwMDAwMjIwMDAwMDAwMDAwMjAwMjAwMDAwMDAwMDAyMjIyMjIwMDIyMjIyMg==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.dungeon.purpleOuterNorthWest",
+            "sprites.dungeon.purpleOuterWest0",
+            "sprites.dungeon.purpleOuterSouthEast",
+            "sprites.dungeon.purpleOuterNorth0",
+            "sprites.dungeon.purpleOuterNorthEast",
+            "sprites.dungeon.purpleOuterEast1",
+            "sprites.dungeon.purpleOuterSouth1",
+            "sprites.dungeon.purpleOuterSouthWest",
+            "sprites.dungeon.floorDark2"
+        ],
+        "displayName": "chickCoopInside"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myTiles"
+    }
+}
