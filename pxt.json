@@ -6,8 +6,6 @@
         "cubicbird-land-core": "github:felixtsu/cubicbird-land-core#master"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
         "README.md",
         "assets.json",
         "chickencoop.ts",
@@ -15,6 +13,8 @@
         "images.g.ts"
     ],
     "testFiles": [
+        "main.blocks",
+        "main.ts",
         "tilemap.g.jres",
         "tilemap.g.ts",
         "test.ts"
