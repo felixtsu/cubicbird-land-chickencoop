@@ -90,13 +90,14 @@ namespace chickcoop {
             `, SpriteKind.Chicken)
                 tiles.placeOnRandomTile(chicken, sprites.dungeon.floorDark2)
                 let angle = randint(-Math.PI, Math.PI)
-                chicken.vx = 50 * Math.cos(angle)
-                chicken.vy = 50 * Math.sin(angle)
+                chicken.vx = 20 * Math.cos(angle)
+                chicken.vy = 20 * Math.sin(angle)
                 chicken.setFlag(SpriteFlag.BounceOnWall, true)
             }
 
             tiles.placeOnTile(player, tiles.getTileLocation(5,6))
             controller.moveSprite(player)
+            scene.cameraFollowSprite(player)
         })
 
         forever(()=>{
