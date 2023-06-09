@@ -115,12 +115,6 @@ namespace chickcoop {
             pause(3000)
 
         })
-
-        // controller.A.onEvent(ControllerButtonEvent.Pressed, () => {
-
-        //     story.printCharacterText("一共有" + cbland_info.itemQuantity("鸡蛋") + "颗鸡蛋")
-        
-        // })
      
         sprites.onOverlap(SpriteKind.Player, SpriteKind.Egg, (sprite: Sprite, otherSprite: Sprite) => {
             otherSprite.sayText("捡鸡蛋", 500)
