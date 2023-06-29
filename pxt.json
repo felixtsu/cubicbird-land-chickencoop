@@ -4,7 +4,7 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "cubicbird-land-core": "github:felixtsu/cubicbird-land-core#v0.0.8"
+        "cubicbird-land-core": "github:felixtsu/cubicbird-land-core#v0.0.14"
     },
     "files": [
         "README.md",
